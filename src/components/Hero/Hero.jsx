@@ -85,7 +85,7 @@ const Hero = () => {
               <div className={styles.statLabel}>ML Models</div>
             </div>
             <div className={styles.statItem}>
-              <div className={styles.statNumber}>1000+</div>
+              <div className={styles.statNumber}>1000{"+"}</div>
               <div className={styles.statLabel}>Predictions Made</div>
             </div>
           </div>
@@ -95,10 +95,18 @@ const Hero = () => {
       <footer className={styles.footer}>
         <div className={styles.container}>
           <div className={styles.footerContent}>
-            <p className={styles.copyright}>© 2024 ML Health Predictions. All rights reserved.</p>
-            <p className={styles.developer}>
-              Developed by <span className={styles.developerName}>Menna</span>
-            </p>
+            <div className={styles.footerDivider}></div>
+            <div className={styles.footerText}>
+              <p className={styles.copyright}>© 2024 ML Health Predictions. All rights reserved.</p>
+              <p className={styles.developer}>
+                Developed with ❤️ by <span className={styles.developerName}>Menna</span>
+              </p>
+            </div>
+            <div className={styles.footerLinks}>
+              <span className={styles.footerLink}>Privacy Policy</span>
+              <span className={styles.footerDividerSmall}>•</span>
+              <span className={styles.footerLink}>Terms of Service</span>
+            </div>
           </div>
         </div>
       </footer>
