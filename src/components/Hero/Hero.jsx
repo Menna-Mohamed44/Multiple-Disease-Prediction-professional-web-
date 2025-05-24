@@ -91,6 +91,17 @@ const Hero = () => {
           </div>
         </div>
       </section>
+
+      <footer className={styles.footer}>
+        <div className={styles.container}>
+          <div className={styles.footerContent}>
+            <p className={styles.copyright}>© 2024 ML Health Predictions. All rights reserved.</p>
+            <p className={styles.developer}>
+              Developed by <span className={styles.developerName}>Menna</span>
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
